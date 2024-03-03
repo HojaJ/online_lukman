@@ -1,0 +1,15 @@
+﻿@extends('layouts.guest')
+@section('content')  <div class="page-content page-content--no-box"> <div class="wrapper section-wrapper"> <div class="breadcrumbs"> </div> <div class="wrapper article-wrapper"> <a href="..\indexru.htm" class="breadcrumbs__previous">А-Я</a>  <div class="layout-article"> <div class="layout-article__left"> <section class="helzy-top-banner">
+</section> 
+ <article class="markdown-article"> 
+
+
+ <h1 id="хрупкость-ногтей">Хрупкость ногтей</h1> <h2 id="краткое-описание-симптома">Краткое описание симптома</h2> <p>Хрупкость ногтей — нарушение структуры и целостности ногтевой пластины, в результате чего появляются трещины и сколы свободного края. Цвет самой ногтевой пластины при этом не изменяется.</p> <h2 id="нужна-ли-экстренная-помощь">Нужна ли экстренная помощь</h2> <p>Экстренная помощь при возникновении хрупкости ногтей не требуется.</p> <h2 id="что-рекомендуется-делать">Что рекомендуется делать</h2> <ul> <li>Соблюдать диету, богатую (дополненную) витаминами и микро- и макроэлементами.</li> <li>При контакте с моющими средствами надевать перчатки.</li> </ul> <h2 id="что-не-рекомендуется-делать">Что не рекомендуется делать</h2> <ul> <li>Использовать декоративный лак и средства для его снятия.</li> <li>Кусать и грызть ногти.</li> </ul> <h2 id="возможные-причины">Возможные причины</h2> <ul> <li><a href="https://diseases.helzy.ru/serdechno-sosudistaya-sistema-i-krov/anemiya.html" target="_blank" rel="noreferrer">Анемия.</a></li> <li><a href="https://diseases.helzy.ru/serdechno-sosudistaya-sistema-i-krov/obliteriruyushchie-zabolevaniya-perifericheskih-arterij.html" target="_blank" rel="noreferrer">Облитерирующие заболевания периферических артерий.</a></li> <li><a href="https://diseases.helzy.ru/endokrinnyye-zhelezy/gipotireoz.html" target="_blank" rel="noreferrer">Гипотиреоз.</a></li> <li><a href="https://diseases.helzy.ru/endokrinnyye-zhelezy/gipoparatireoz.html" target="_blank" rel="noreferrer">Гипопаратиреоз.</a></li> <li>Авитаминоз.</li> <li>Сахарный диабет.</li> <li>Тиреотоксикоз.</li> <li>Гастрит.</li> <li>Энтерит.</li> <li>Онохомикоз.</li> <li>Псориаз.</li> <li>Красный плоский лишай.</li> <li>Экзема.</li> <li>Беременность.</li> </ul> </article> </div> <div class="layout-article__right toc"> <div class="toc-content"> <ul class="section-nav"> <li class="toc-entry toc-h2"><a href="#краткое-описание-симптома">Краткое описание симптома</a></li> <li class="toc-entry toc-h2"><a href="#нужна-ли-экстренная-помощь">Нужна ли экстренная помощь</a></li> <li class="toc-entry toc-h2"><a href="#что-рекомендуется-делать">Что рекомендуется делать</a></li> <li class="toc-entry toc-h2"><a href="#что-не-рекомендуется-делать">Что не рекомендуется делать</a></li> <li class="toc-entry toc-h2"><a href="#возможные-причины">Возможные причины</a></li> </ul> </div> </div> </div> </div> </div> <hzy-kb-menu-toggle></hzy-kb-menu-toggle>
+
+
+
+        
+
+
+
+     @endsection
