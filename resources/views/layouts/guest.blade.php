@@ -67,7 +67,14 @@
             <a href="{{ route('diseases') }}" class="animated-hover">{{ __("Diseases") }}</a>
             <a href="{{ route('search') }}" class="animated-hover">{{ __("Search") }}</a>
             <a href="{{ route('symptoms') }}" class="animated-hover">{{ __("Symptoms") }}</a>
-            <a href="{{ route('diagnosis') }}" class="button button--primary">Özüňizi  barlaň!</a>
+
+            @if (Auth::guest())
+                <a href="{{ route('login') }}" class="animated-hover">{{ __("Login") }}</a>
+            @else
+                <a href="{{ route('logout') }}" class="animated-hover">{{ __("Logout") }}</a>
+            @endif
+
+            <a href="{{ route('diagnosis') }}" class="button button--primary">{{ __('Check yourself') }}!</a>
         </div>
     </div>
 </header>

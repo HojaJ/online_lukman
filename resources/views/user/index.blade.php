@@ -58,6 +58,7 @@
             color: #000;
             font-weight: 600;
             margin-top: 30px;
+            font-size: 14px;
         }
 
         .owl_block p {
@@ -120,7 +121,7 @@
         <div class="wrapper section-wrapper">
             <h1>{{ __('Better Health Starts With You') }}</h1>
             <h4>{{ __('A platform that connects you with quality healthcare services and resources anytime, anywhere.') }}</h4>
-            <a href="{{ route('diagnosis') }}" class="button button--primary">Özüňizi barlaň!</a>
+            <a href="{{ route('diagnosis') }}" class="button button--primary">{{ __('Check yourself') }}!</a>
         </div>
     </div>
     <div class="wrapper section-wrapper bg-gray">
